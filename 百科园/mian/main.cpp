@@ -23,15 +23,7 @@ int main()
     int u=0; 
     int long long num = 0;
     do {
-        if (findData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) { // 如果是文件夹
-            std::string folderName = findData.cFileName;
-            if (folderName >= "202283720000" && folderName <= "202283720036") { // 判断是否在指定范围内
-                std::cout << folderName << "存在" << std::endl;
-                u=1;
-                std::istringstream ss(folderName);
-    			ss>>num;
-            } 
-        }
+        //解密字段予以屏蔽-Alice-Cartelet-
     } while (FindNextFile(hFind,&findData));
     FindClose(hFind);
     for(int i=1;i<=30;i++)
@@ -65,14 +57,7 @@ int main()
 	system(b);
 	std::cout<<"正在解密文件"; 
 	Sleep(500);  
-	sprintf(b,"for /r \"C:\\Exam\\%lld\" \%\%i in (*.exe) do ren \"\%\%i\" \"\%\%~ni.lswj\"",num) ;
-	system(b);
-	Sleep(500); 
-	sprintf(b,"for /r \"C:\\Exam\\%lld\" \%\%i in (*.dll) do ren \"\%\%i\" \"\%\%~ni.exe\"",num) ;
-	system(b);
-	Sleep(500); 
-	sprintf(b,"for /r \"C:\\Exam\\%lld\" \%\%i in (*.lswj) do ren \"\%\%i\" \"\%\%~ni.c\"",num) ;
-	system(b);
+	//解密字段予以屏蔽-Alice-Cartelet-
 	std::cout<<"添加项目，作答中....."; 
 	Sleep(500);
 	system("dir C:\\windows\\system32"); 
