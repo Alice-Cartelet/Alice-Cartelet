@@ -1,5 +1,10 @@
 #ifndef DY_H
 #define DY_H
+#include<windows.h>
+#include<tchar.h>
+#include<stdio.h>
+#include<time.h>
+#include<string.h>
 HBITMAP bg1;
 BITMAP bmp; 
 HDC bg,wd;

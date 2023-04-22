@@ -1,8 +1,3 @@
-#include<windows.h>
-#include<tchar.h>
-#include<stdio.h>
-#include<time.h>
-#include<string.h>
 #include"dy.h"
 #include"hs.h"
 LRESULT CALLBACK WndProc(HWND hWnd,UINT message,WPARAM wParam,LPARAM lParam)
