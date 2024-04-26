@@ -2,7 +2,7 @@ const { createApp } = Vue
         createApp({
         data() {
             return {
-                api: \'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\',
+                api: \'\',
                 msgLoad: false,
                 anData: {},
                 sentext: \'发送\',
