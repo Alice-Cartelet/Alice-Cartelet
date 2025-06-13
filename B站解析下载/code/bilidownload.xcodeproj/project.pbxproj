@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F99C6BB2DEF257500F9BA8B /* FileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F99C6BA2DEF257500F9BA8B /* FileListView.swift */; };
+		2F99C6BD2DEF278100F9BA8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F99C6BC2DEF278100F9BA8B /* HomeView.swift */; };
+		2FACDABE2D8C24F90041D05C /* bilidownloadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FACDABD2D8C24F90041D05C /* bilidownloadApp.swift */; };
+		2FACDAC02D8C24F90041D05C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FACDABF2D8C24F90041D05C /* ContentView.swift */; };
+		2FACDAC22D8C25000041D05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FACDAC12D8C25000041D05C /* Assets.xcassets */; };
+		2FACDAC52D8C25000041D05C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FACDAC42D8C25000041D05C /* Preview Assets.xcassets */; };
+		2FACDACF2D8C25010041D05C /* bilidownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FACDACE2D8C25010041D05C /* bilidownloadTests.swift */; };
+		2FACDAD92D8C25010041D05C /* bilidownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FACDAD82D8C25010041D05C /* bilidownloadUITests.swift */; };
+		2FACDADB2D8C25010041D05C /* bilidownloadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FACDADA2D8C25010041D05C /* bilidownloadUITestsLaunchTests.swift */; };
+		2FACDAE92D8D96050041D05C /* AudioConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FACDAE82D8D96050041D05C /* AudioConverter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FACDACB2D8C25010041D05C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FACDAB22D8C24F90041D05C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FACDAB92D8C24F90041D05C;
+			remoteInfo = bilidownload;
+		};
+		2FACDAD52D8C25010041D05C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FACDAB22D8C24F90041D05C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FACDAB92D8C24F90041D05C;
+			remoteInfo = bilidownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F99C6BA2DEF257500F9BA8B /* FileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListView.swift; sourceTree = "<group>"; };
+		2F99C6BC2DEF278100F9BA8B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2FACDABA2D8C24F90041D05C /* bilidownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bilidownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FACDABD2D8C24F90041D05C /* bilidownloadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilidownloadApp.swift; sourceTree = "<group>"; };
+		2FACDABF2D8C24F90041D05C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FACDAC12D8C25000041D05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FACDAC42D8C25000041D05C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FACDACA2D8C25010041D05C /* bilidownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bilidownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FACDACE2D8C25010041D05C /* bilidownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilidownloadTests.swift; sourceTree = "<group>"; };
+		2FACDAD42D8C25010041D05C /* bilidownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bilidownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FACDAD82D8C25010041D05C /* bilidownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilidownloadUITests.swift; sourceTree = "<group>"; };
+		2FACDADA2D8C25010041D05C /* bilidownloadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bilidownloadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FACDAE72D8D8C470041D05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2FACDAE82D8D96050041D05C /* AudioConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioConverter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FACDAB72D8C24F90041D05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FACDAC72D8C25010041D05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FACDAD12D8C25010041D05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FACDAB12D8C24F90041D05C = {
+			isa = PBXGroup;
+			children = (
+				2FACDABC2D8C24F90041D05C /* bilidownload */,
+				2FACDACD2D8C25010041D05C /* bilidownloadTests */,
+				2FACDAD72D8C25010041D05C /* bilidownloadUITests */,
+				2FACDABB2D8C24F90041D05C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FACDABB2D8C24F90041D05C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FACDABA2D8C24F90041D05C /* bilidownload.app */,
+				2FACDACA2D8C25010041D05C /* bilidownloadTests.xctest */,
+				2FACDAD42D8C25010041D05C /* bilidownloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FACDABC2D8C24F90041D05C /* bilidownload */ = {
+			isa = PBXGroup;
+			children = (
+				2FACDAE72D8D8C470041D05C /* Info.plist */,
+				2FACDABD2D8C24F90041D05C /* bilidownloadApp.swift */,
+				2FACDABF2D8C24F90041D05C /* ContentView.swift */,
+				2FACDAE82D8D96050041D05C /* AudioConverter.swift */,
+				2FACDAC12D8C25000041D05C /* Assets.xcassets */,
+				2FACDAC32D8C25000041D05C /* Preview Content */,
+				2F99C6BA2DEF257500F9BA8B /* FileListView.swift */,
+				2F99C6BC2DEF278100F9BA8B /* HomeView.swift */,
+			);
+			path = bilidownload;
+			sourceTree = "<group>";
+		};
+		2FACDAC32D8C25000041D05C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FACDAC42D8C25000041D05C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FACDACD2D8C25010041D05C /* bilidownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FACDACE2D8C25010041D05C /* bilidownloadTests.swift */,
+			);
+			path = bilidownloadTests;
+			sourceTree = "<group>";
+		};
+		2FACDAD72D8C25010041D05C /* bilidownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FACDAD82D8C25010041D05C /* bilidownloadUITests.swift */,
+				2FACDADA2D8C25010041D05C /* bilidownloadUITestsLaunchTests.swift */,
+			);
+			path = bilidownloadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FACDAB92D8C24F90041D05C /* bilidownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FACDADE2D8C25010041D05C /* Build configuration list for PBXNativeTarget "bilidownload" */;
+			buildPhases = (
+				2FACDAB62D8C24F90041D05C /* Sources */,
+				2FACDAB72D8C24F90041D05C /* Frameworks */,
+				2FACDAB82D8C24F90041D05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bilidownload;
+			productName = bilidownload;
+			productReference = 2FACDABA2D8C24F90041D05C /* bilidownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FACDAC92D8C25010041D05C /* bilidownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FACDAE12D8C25010041D05C /* Build configuration list for PBXNativeTarget "bilidownloadTests" */;
+			buildPhases = (
+				2FACDAC62D8C25010041D05C /* Sources */,
+				2FACDAC72D8C25010041D05C /* Frameworks */,
+				2FACDAC82D8C25010041D05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FACDACC2D8C25010041D05C /* PBXTargetDependency */,
+			);
+			name = bilidownloadTests;
+			productName = bilidownloadTests;
+			productReference = 2FACDACA2D8C25010041D05C /* bilidownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FACDAD32D8C25010041D05C /* bilidownloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FACDAE42D8C25010041D05C /* Build configuration list for PBXNativeTarget "bilidownloadUITests" */;
+			buildPhases = (
+				2FACDAD02D8C25010041D05C /* Sources */,
+				2FACDAD12D8C25010041D05C /* Frameworks */,
+				2FACDAD22D8C25010041D05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FACDAD62D8C25010041D05C /* PBXTargetDependency */,
+			);
+			name = bilidownloadUITests;
+			productName = bilidownloadUITests;
+			productReference = 2FACDAD42D8C25010041D05C /* bilidownloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FACDAB22D8C24F90041D05C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2FACDAB92D8C24F90041D05C = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					2FACDAC92D8C25010041D05C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 2FACDAB92D8C24F90041D05C;
+					};
+					2FACDAD32D8C25010041D05C = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 2FACDAB92D8C24F90041D05C;
+					};
+				};
+			};
+			buildConfigurationList = 2FACDAB52D8C24F90041D05C /* Build configuration list for PBXProject "bilidownload" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FACDAB12D8C24F90041D05C;
+			productRefGroup = 2FACDABB2D8C24F90041D05C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FACDAB92D8C24F90041D05C /* bilidownload */,
+				2FACDAC92D8C25010041D05C /* bilidownloadTests */,
+				2FACDAD32D8C25010041D05C /* bilidownloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FACDAB82D8C24F90041D05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FACDAC52D8C25000041D05C /* Preview Assets.xcassets in Resources */,
+				2FACDAC22D8C25000041D05C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FACDAC82D8C25010041D05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FACDAD22D8C25010041D05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FACDAB62D8C24F90041D05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F99C6BB2DEF257500F9BA8B /* FileListView.swift in Sources */,
+				2FACDAE92D8D96050041D05C /* AudioConverter.swift in Sources */,
+				2FACDAC02D8C24F90041D05C /* ContentView.swift in Sources */,
+				2F99C6BD2DEF278100F9BA8B /* HomeView.swift in Sources */,
+				2FACDABE2D8C24F90041D05C /* bilidownloadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FACDAC62D8C25010041D05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FACDACF2D8C25010041D05C /* bilidownloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FACDAD02D8C25010041D05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FACDADB2D8C25010041D05C /* bilidownloadUITestsLaunchTests.swift in Sources */,
+				2FACDAD92D8C25010041D05C /* bilidownloadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FACDACC2D8C25010041D05C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FACDAB92D8C24F90041D05C /* bilidownload */;
+			targetProxy = 2FACDACB2D8C25010041D05C /* PBXContainerItemProxy */;
+		};
+		2FACDAD62D8C25010041D05C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FACDAB92D8C24F90041D05C /* bilidownload */;
+			targetProxy = 2FACDAD52D8C25010041D05C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FACDADC2D8C25010041D05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FACDADD2D8C25010041D05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FACDADF2D8C25010041D05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bilidownload/Preview Content\"";
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bilidownload/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BiliDown;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "需要访问文件以进行转换";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "需要访问文件以进行转换";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.Cartelet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2FACDAE02D8C25010041D05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bilidownload/Preview Content\"";
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bilidownload/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BiliDown;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "需要访问文件以进行转换";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "需要访问文件以进行转换";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.Cartelet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2FACDAE22D8C25010041D05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.bilidownload.bilidownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bilidownload.app/bilidownload";
+			};
+			name = Debug;
+		};
+		2FACDAE32D8C25010041D05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.bilidownload.bilidownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bilidownload.app/bilidownload";
+			};
+			name = Release;
+		};
+		2FACDAE52D8C25010041D05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.bilidownload.bilidownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bilidownload;
+			};
+			name = Debug;
+		};
+		2FACDAE62D8C25010041D05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.bilidownload.bilidownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bilidownload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FACDAB52D8C24F90041D05C /* Build configuration list for PBXProject "bilidownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FACDADC2D8C25010041D05C /* Debug */,
+				2FACDADD2D8C25010041D05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FACDADE2D8C25010041D05C /* Build configuration list for PBXNativeTarget "bilidownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FACDADF2D8C25010041D05C /* Debug */,
+				2FACDAE02D8C25010041D05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FACDAE12D8C25010041D05C /* Build configuration list for PBXNativeTarget "bilidownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FACDAE22D8C25010041D05C /* Debug */,
+				2FACDAE32D8C25010041D05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FACDAE42D8C25010041D05C /* Build configuration list for PBXNativeTarget "bilidownloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FACDAE52D8C25010041D05C /* Debug */,
+				2FACDAE62D8C25010041D05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FACDAB22D8C24F90041D05C /* Project object */;
+}
